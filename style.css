@@ -48,7 +48,6 @@ main {
   width: 100%;
   display: flex;
   align-items: center;
-  /* background-color: rgba(105, 105, 105, 0.322); */
   overflow: hidden;
 }
 
@@ -67,14 +66,14 @@ main {
 }
 
 .testimonial .testimonialText {
-  padding: 2rem 2rem 0.5rem 0;
+  padding: 2rem 1.5rem 0 0;
   height: auto;
   width: 100%;
 }
 
 .testimonial .name {
   padding: 2rem 0 0;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: var(--GrayishBlue);
 }
 
@@ -85,7 +84,7 @@ main {
 
 @media only screen and (max-width: 1080px) {
   .main {
-    height: 100%;
+    height: 100vh;
     width: 100vw;
     background-size: 75%;
     flex-direction: column-reverse;
@@ -180,12 +179,12 @@ main {
   .imageContainer {
     position: relative;
     right: 0;
-    height: 22rem;
+    height: 25rem;
     width: 100%;
+    justify-content: center;
     align-items: center;
-    background-size: 90%;
-    background-position: 50% 2rem;
-    /* background-color: chocola/te; */
+    background-size: 20rem;
+    background-position: center 2rem;
   }
 
   .images {
@@ -193,7 +192,6 @@ main {
     top: 0;
     height: fit-content;
     width: 100%;
-    background-color: cornsilk;
     justify-content: center;
   }
 
@@ -205,7 +203,7 @@ main {
   .arrows {
     left: 50%;
     transform: translateX(-50%);
-    bottom: 1.6rem;
+    bottom: 4.5rem;
   }
 }
 
